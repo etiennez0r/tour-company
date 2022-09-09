@@ -17,7 +17,7 @@ Please follow the next steps to install the tour-company Test Task:<br>
 6- To create a new booking send a post request payload to http://localhost/bookings with the following fields (all are required):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;client_id: any client id from the table clients, originally a number between 1 and 50.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;product_id: any product id from the table products, originally a number between 1 and 100.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;booked_on: any product id from the table products, originally a number between 1 and 100.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;booked_on: any date in the format YYYY-mm-dd.<br>
 <br>
 Payload sample:<br>
 <br>
