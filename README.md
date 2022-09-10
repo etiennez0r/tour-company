@@ -8,6 +8,7 @@ Please follow the next steps to install the tour-company Test Task:<br>
 3- Navigate to the root folder of your laravel installation and open a terminal console<br>
 4- Execute the following commands:<br>
 *php artisan migrate:install* [to confirm that the connection to database is correct]<br>
+*git init*<br>
 *git remote add origin git@github.com:etiennez0r/tour-company.git*<br>
 *git fetch --all*<br>
 *git reset --hard origin/master*<br>
